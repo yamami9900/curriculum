@@ -1,0 +1,45 @@
+.p-position{
+  background: #EBFF00;
+}
+.c-line__position{
+  background-color: #0014FF;
+  position: relative;
+}
+.c-line__position::before{
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #000;
+}
+@media screen and (min-width: 1126px) { /* pc用スタイル */
+  .p-position{
+    height: auto;
+    min-width: 1126px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 94px 100px 199px 100px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 1125px) { /* タブレット用のスタイル */
+  .p-position{
+    height: auto;
+    min-width: 770px;
+    max-width: 1125px;
+    padding: 100px 50px 107px 50px;
+  }
+}
+@media screen and (max-width: 759px) { /*スマホ用スタイル */
+  .p-position{
+    height: auto;
+    max-width: 759px;
+    padding: 50px 20px 50px 20px;
+  }
+  .c-line__position{
+    margin: 0 0 0 20px;
+  }
+  .c-title__position{
+    margin: 0 0 0 20px;
+  }
+}

@@ -1,0 +1,117 @@
+.p-secondary__title{
+  background-color: #FF0000
+}
+@media screen and (min-width: 1126px) { /* pc用スタイル */
+  .p-secondary__primary{
+    background: #909090;
+    width: 100%;
+    height: 600px;
+    margin: 201px 0 0 0;
+    padding: 40px 150px 0 150px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .p-secondary__box{
+    position: relative;
+    z-index: 3;
+  }
+  .p-secondary__title{
+    width: 100%;
+    font-size: 28px;
+    height: 197px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    z-index: 3;
+  }
+  .p-secondary__text{
+    position: absolute;
+    z-index: 2;
+    overflow-y: auto;
+    height: 600px;
+    width: 100%;
+    margin: -237px 0 0 0;
+    padding: 337px 0 0 0;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 1125px) { /* タブレット用のスタイル */
+  .p-secondary__primary{
+    background: #909090;
+    width: 100%;
+    height: 600px;
+    margin: 100px 0 0 0;
+    padding: 35px 84px 0 84px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .p-secondary__box{
+    position: relative;
+    z-index: 3;
+  }
+  .p-secondary__title{
+    width: 100%;
+    font-size: 28px;
+    height: 197px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    z-index: 3;
+  }
+  .p-secondary__text{
+    position: absolute;
+    z-index: 2;
+    overflow-y: auto;
+    height:600px;
+    width: 100%;
+    margin: -237px 0 0 0;
+    padding: 272px 0 0 0;
+  }
+}
+@media screen and (max-width: 759px) { /*スマホ用スタイル */
+  .p-secondary__primary{
+    background: #909090;
+    width: 100%;
+    height: 481px;
+    margin: 40px 0 0 0;
+    padding: 40px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .p-secondary__box{
+    position: relative;
+    z-index: 3;
+  }
+  .p-secondary__title{
+    width: 100%;
+    font-size: 28px;
+    height: 101px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    z-index: 3;
+  }
+  .p-secondary__text{
+    position: absolute;
+    z-index: 2;
+    overflow-y: auto;
+    height: 481px;
+    width: 100%;
+    margin: -141px 0 0 0;
+    padding: 161px 0 0 0;
+  }
+}

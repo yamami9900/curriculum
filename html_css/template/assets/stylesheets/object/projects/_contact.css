@@ -1,0 +1,39 @@
+.p-contact{
+  background:#fff;
+}
+.c-line__contact{
+  background-color: #DCE01D;
+  position: relative;
+}
+.c-line__contact::before{
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #a4131d;
+}
+@media screen and (min-width: 1126px) { /* pc用スタイル */
+  .p-contact{
+    height: auto;
+    min-width: 1126px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 200px 100px 200px 100px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 1125px) { /* タブレット用のスタイル */
+  .p-contact{
+    height: auto;
+    min-width: 770px;
+    max-width: 1125px;
+    padding: 100px 50px 200px 50px;
+  }
+}
+@media screen and (max-width: 759px) { /*スマホ用スタイル */
+  .p-contact{
+    height: auto;
+    max-width: 759px;
+    padding: 50px 20px 41px 20px;
+  }
+}

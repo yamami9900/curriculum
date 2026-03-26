@@ -1,0 +1,130 @@
+@media screen and (min-width: 1126px) { /* pc用スタイル */
+  .p-card__group{
+    margin: 200px 0 0 0;
+    overflow-x: auto;
+  }
+  .p-card__list{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 90px;
+  }
+  .p-card{
+    background-color: #909090;
+    width: 340px;
+    height: 462px;
+    padding: 20px 20px 20px 20px;
+  }
+  .p-card__frame{
+    display: block;
+  }
+  .p-card__image{
+    width: 100%;
+    height: auto;
+  }
+  .p-card__title{
+    font-size: 28px;
+    text-align: left;
+    color: #fff;
+    margin: 30px 0 0 0;
+    line-height: 32px;
+    width: 276px;
+    height: 69px;
+  }
+  .p-card__text{
+    font-size: 16px;
+    text-align: left;
+    color: #fff;
+    margin: 30px 0 0 0;
+    line-height: 20px;
+    width: 300px;
+    height: 93px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 1125px) { /* タブレット用のスタイル */
+  .p-card__group{
+    margin-top: 100px;
+  }
+  .p-card__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .p-card{
+    background-color: #909090;
+    width: 330px;
+    height: 458px;
+    flex-direction: column;
+  }
+  .p-card__frame{
+    display: block;
+  }
+  .p-card__image{
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+  .p-card__title{
+    font-size: 28px;
+    text-align: left;
+    color: #fff;
+    margin-top: 30px;
+    line-height: 32px;
+    width: 300px;
+    height: 69px;
+    margin-left: 20px;
+  }
+  .p-card__text{
+    font-size: 16px;
+    text-align: left;
+    color: #fff;
+    margin-top: 30px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 93x;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 759px) { /*スマホ用スタイル */
+  .p-card__group{
+    margin: 50px 0 0 0;
+  }
+  .p-card__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .p-card{
+    background-color: #909090;
+    width: 340px;
+    height: 397px;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+  }
+  .p-card__frame{
+    display: block;
+  }
+  .p-card__image{
+    width: 300px;
+    height: 200px;
+  }
+  .p-card__title{
+    font-size: 24px;
+    text-align: left;
+    color: #fff;
+    margin: 20px 0 0 0;
+    width: 300px;
+    height: 32px;
+  }
+  .p-card__text{
+    font-size: 16px;
+    text-align: left;
+    color: #fff;
+    margin: 12px 0 0 0;
+    line-height: 20px;
+    width: 300px;
+    height: 93px;
+  }
+}

@@ -1,0 +1,7 @@
+/* 共通スタイルは外に書く */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: arial, sans-serif;
+}

@@ -1,0 +1,81 @@
+.P-group{
+  background: #fff;
+}
+.p-group__text{
+  color: #fff;
+  background-color: black;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 1126px) { /* pc用スタイル */
+  .P-group{
+    position: relative;
+    width: 100%;
+    height: 650px;
+    margin: 200px 0 0 0;
+    padding: 100px;
+  }
+  .p-group__primary{
+    width: 100%;
+  }
+  .p-group__image{
+    position: absolute;
+    z-index: 3;
+  }
+  .p-group__text{
+    position: absolute;
+    font-size: 16px;
+    padding: 80px 40px;
+    top: 300px;
+    right: 100px;
+    width: 520px;
+    max-height: 250px;
+    z-index: 3;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 1125px) { /* タブレット用のスタイル */
+  .P-group{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin: 100px 0 0 0;
+    padding: 50px;
+  }
+  .p-group__primary{
+    width: 100%;
+  }
+  .p-group__text{
+    position:absolute;
+    font-size: 16px;
+    padding: 30px 35px;
+    width: 400px;
+    max-height: 160px;
+    top: 190px;
+    right: 50px;
+    z-index: 3;
+  }
+}
+@media screen and (max-width: 759px) { /*スマホ用スタイル */
+  .P-group{
+    position: relative;
+    width: 100%;
+    height: 363px;
+    margin: 40px 0 0 0;
+    padding: 40px 20px;
+  }
+  .p-group__primary{
+    width: 100%;
+  }
+  .p-group__text{
+    position:absolute;
+    font-size: 16px;
+    line-height: 15px;
+    padding: 30px;
+    width: 300px;
+    max-height: 150px;
+    top: 173px;
+    right: 20px;
+    height: 150px;
+    z-index: 3;
+  }
+}

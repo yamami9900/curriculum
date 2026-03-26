@@ -1,0 +1,58 @@
+@media screen and (min-width: 1126px) { /* pc用スタイル */
+    .p-gallery{
+      display: flex;
+      gap: 100px;
+      white-space: nowrap;
+      overflow-x: auto;
+      width: 100%;
+      white-space: nowrap;
+    }
+    .p-gallery__card{
+      margin: 201px 0 0 0;
+      flex-shrink: 0;
+    }
+    .p-gallery__frame{
+       width: 400px;
+       height: 300px;
+    }
+    .p-gallery__card img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  @media screen and (min-width: 760px) and (max-width: 1125px) { /* タブレット用のスタイル */
+    .p-gallery{
+      display: flex;
+      gap: 50px;
+      overflow-x: auto;
+      width: 100%;
+      white-space: nowrap;
+    }
+    .p-gallery__card{
+      margin: 100px 0 0 0;
+      flex-shrink: 0;
+    }
+    .p-gallery__card img{
+      width: auto;
+      height: auto;
+    }
+  }
+  @media screen and (max-width: 759px) { /*スマホ用スタイル */
+    .p-gallery{
+      display: flex;
+      gap: 50px;
+      overflow-x: auto;
+      width: 100%;
+      white-space: nowrap;
+    }
+    .p-gallery__card{
+      margin: 50px 0 0 0;
+      flex-shrink: 0;
+    }
+    .p-gallery__card img{
+      width: 100%;
+       height: 100%;
+      object-fit: cover;
+    }
+  }

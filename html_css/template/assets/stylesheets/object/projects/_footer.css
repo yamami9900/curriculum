@@ -1,0 +1,75 @@
+.p-footer__image{
+  width: 300px;
+  height: 200px;
+}
+.p-footer__item{
+  background-color: #909090;
+}
+.p-footer__text{
+  color: #000;
+}
+@media screen and (min-width: 1126px) { /* pc用スタイル */
+  .p-footer{
+    display: flex;
+    margin: 200px 0 0 0;
+  }
+  .p-footer__item{
+    position: relative;
+    width: 900px;
+    height: 200px;
+  }
+  .p-footer__image--wrapper{
+    display: block;
+  }
+  .p-footer__text{
+    font-size: 40px;
+    padding: 72px 0 0 292px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 1125px) { /* タブレット用のスタイル */
+  .p-footer{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .p-footer__item{
+    width: 368px;
+    height: 200px;
+  }
+  .p-footer__image--wrapper{
+    display: block;
+  }
+  .p-footer__text{
+    font-size: 40px;
+    letter-spacing: -8px;
+    margin-top: 72px;
+    margin-bottom: 75px;
+    padding-left: 34px;
+  }
+}
+@media screen and (max-width: 759px) { /*スマホ用スタイル */
+  .p-footer{
+    display: flex;
+    padding: 50px 0 0 0;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .p-footer__list{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .p-footer__item{
+    width: 356px;
+    height: 200px;
+  }
+  .p-footer__image--wrapper{
+    display: block;
+  }
+  .p-footer__text{
+    font-size: 40px;
+    letter-spacing: -6px;
+    padding: 72px 0 0 20px;
+  }
+}

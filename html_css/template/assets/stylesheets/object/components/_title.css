@@ -1,0 +1,49 @@
+.c-title{
+  font-family: 'NotoSansJP-Bold';
+}
+.c-title__flex{
+  color: #fff;
+}
+.c-title__position{
+  color: #000;
+  display: block;
+}
+.c-title__iframe{
+  color: #fff;
+  margin: 0 0 0 -100px;
+}
+.c-title__table{
+  color: #fff;
+  display: block;
+}
+.c-title__contact{
+  color: black;
+  display: block;
+}
+@media screen and (min-width: 1126px) { /* pc用スタイル */
+  .c-title{
+    font-size: 65px;
+  }
+  .c-line{
+    width: 400px;
+    height: 5px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 1125px) { /* タブレット用のスタイル */
+  .c-title{
+    font-size: 50px;
+  }
+  .c-line{
+    width: 350px;
+    height: 5px;
+  }
+}
+@media screen and (max-width: 759px) { /*スマホ用スタイル */
+  .c-title{
+    font-size: 40px;
+  }
+  .c-line{
+    width: 240px;
+    height: 5px;
+  }
+}

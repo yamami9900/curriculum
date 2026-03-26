@@ -1,0 +1,117 @@
+.p-header {
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+.p-header__inner{
+  background: #a82c2c;
+}
+.p-header__logoImage {
+  height: auto;
+  object-fit: contain;
+}
+.p-header__title {
+  color: #ffffff;
+}
+@media screen and (min-width: 1126px) { /* pc用スタイル */
+  .p-header__inner {
+    min-width: 1126px;
+    max-width: 1400px;
+    padding: 25px 100px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .p-header__container {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+  }
+  .p-header__logoImage {
+    width: 200px;
+    height: 150px;
+  }
+  .p-header__title {
+    font-size: 42px;
+    margin: 0%;
+  }
+  .p-header__navList{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+  }
+  .p-button__Tabsle {  /* 修正 */
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    color: white;
+    background-color: #00BA0E;
+  }
+  .p-button__Contact {  /* 修正 */
+    font-size: 20px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: #EBFF00;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 1125px) { /* タブレット用のスタイル */
+  .p-header__inner {
+    min-width: 770px;
+    max-width: 1125px;
+    margin: 0 auto;
+    padding: 0 50px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .p-header__container  {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  .p-header__logoImage {
+    width: 150px;
+    height:100px;
+  }
+  .p-header__title {
+    font-size: 24px;
+    margin: 0%;
+  }
+  .p-header__navList{
+    display: none;
+  }
+}
+@media screen and (max-width: 759px) { /*スマホ用スタイル */
+  .p-header__inner{
+    padding: 25px 50px;
+    height: 100px;
+    display: flex;
+    margin: 0 auto;
+  }
+  .p-header__container  {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .p-header__logoImage{
+    width: 80px;
+    height: 50px;
+  }
+  .p-header__title {
+    font-size: 16px;
+    margin: 0%;
+  }
+  .p-header__navList{
+    display: none;
+  }
+}

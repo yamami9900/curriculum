@@ -1,0 +1,122 @@
+.p-menu {
+  overflow-x: auto;
+  width: 100%;
+}
+.th,td{
+  border: 1px solid #707070;
+  background-color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  color: #000;
+  white-space: nowrap;
+}
+.th,
+.p-menu__free{
+  font-family: 'NotoSansJP-Bold';
+}
+.td{
+  font-family: 'NotoSans-Regular';
+}
+.p-menu__basic th{
+  border: 1px solid #fff;
+  background-color: #909090;
+  color: #fff;
+}
+.p-menu__free{
+  color: #A82C2C;
+}
+@media screen and (min-width: 1126px) { /* pc用スタイル */
+  .p-menu{
+    padding: 200px 0 0 0;
+  }
+  .p-menu table {
+    min-width: 1200px;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  .p-menu__subMenu{
+    background-color: #fff;
+    font-weight: bold;
+  }
+  .th{
+    font-size: 28px;
+  }
+  .p-menu__basic,
+  .p-menu__price,
+  .p-menu__storage,
+  .p-menu__member,
+  .p-menu__payment{
+    font-size: 28px;
+  }
+  .th,td{
+    width: 300px;
+    height: 150px;
+  }
+  .p-menu__free{
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 1125px) { /* タブレット用のスタイル */
+  .p-menu{
+    padding: 100px 0 0 0;
+    display: flex;
+  }
+  .p-menu table {
+    min-width: 1200px;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  .p-menu__subMenu{
+    background-color: #fff;
+    font-weight: bold;
+  }
+  .th{
+    font-size: 28px;
+  }
+  .p-menu__basic,
+  .p-menu__price,
+  .p-menu__storage,
+  .p-menu__member,
+  .p-menu__payment{
+    font-size: 28px;
+  }
+  .th,td{
+    width: 300px;
+    height: 150px;
+  }
+  .p-menu__free{
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 759px) { /*スマホ用スタイル */
+  .p-menu{
+    padding: 50px 0 0 0;
+    display: flex;
+  }
+  .p-menu table{
+    width: 600px;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  .p-menu__subMenu{
+    background-color: #fff;
+    font-weight: bold;
+  }
+  .th{
+    font-size: 16px;
+  }
+  .p-menu__basic,
+  .p-menu__price,
+  .p-menu__storage,
+  .p-menu__member,
+  .p-menu__payment{
+    font-size:16px;
+  }
+  .th,td{
+    width: 150px;
+    height: 100px;
+  }
+  .p-menu__free{
+    font-size: 30px;
+  }
+}

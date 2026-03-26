@@ -1,0 +1,52 @@
+.p-section{
+  background: #0014FF;
+}
+.c-line__flex{
+  background-color: #a82c2c;
+  position: relative;
+}
+.c-line__flex::before{
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+}
+@media screen and (min-width: 1126px) { /* pc用スタイル */
+  .p-section{
+    height: auto;
+    min-width: 1126px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 200px 100px 200px 100px;
+  }
+  .c-title__flex{
+    margin: 200px 0 0 0;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 1125px) { /* タブレット用のスタイル */
+  .p-section{
+    height: auto;
+    padding-top: 100px;
+    min-width: 770px;
+    max-width: 1125px;
+    padding: 100px 50px 100px 50px;
+  }
+  .c-title__flex{
+    margin: 200px 0 0 0;
+  }
+}
+@media screen and (max-width: 759px) { /*スマホ用スタイル */
+  .p-section{
+    height: auto;
+    max-width: 759px;
+    padding: 50px 20px 50px 20px;
+  }
+  .p-heading{
+    padding: 0 0 0 20px;
+  }
+  .c-title__flex{
+    margin: 100px 0 0 0;
+  }
+}

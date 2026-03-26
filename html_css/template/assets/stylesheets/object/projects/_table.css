@@ -1,0 +1,60 @@
+.p-table{
+  background: #1C221C;
+}
+.c-line__table{
+  background-color: #DCE01D;
+  position: relative;
+}
+.c-line__table::before{
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #0e1aff;
+}
+@media screen and (min-width: 1126px) { /* pc用スタイル */
+  .p-table{
+    height: auto;
+    min-width: 1126px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 200px 100px 200px 100px;
+  }
+  .p-table__text{
+    font-size: 60px;
+  }
+  .p-table__line{
+    width: 400px;
+    height: 5px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 1125px) { /* タブレット用のスタイル */
+  .p-table{
+    height: auto;
+    min-width: 770px;
+    max-width: 1125px;
+    padding: 103px 50px 100px 50px;
+  }
+  .p-table__text{
+    font-size: 50px;
+  }
+  .p-table__line{
+    width: 300px;
+    height: 5px;
+  }
+}
+@media screen and (max-width: 759px) { /*スマホ用スタイル */
+.p-table{
+    height: auto;
+    max-width: 759px;
+    padding: 50px 17px 50px 17px;
+  }
+  .p-table__text{
+    font-size: 40px;
+  }
+  .p-table__line{
+    width: 200px;
+    height: 5px;
+  }
+}
